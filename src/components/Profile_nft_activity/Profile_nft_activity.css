@@ -1,0 +1,66 @@
+
+.iim{
+    width: 20%;
+    border-radius: 8px;
+}
+.crt_i{
+font-size: 18px !important;
+}
+.slle{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(4, 17, 29);
+}
+
+.fr_tone{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(112, 122, 131);
+}
+
+.fr2_tine{
+    color: rgb(32, 129, 226);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.prc_eth{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.prc_dlr{
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(112, 122, 131);
+}
+
+.qunt{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(53, 56, 64);
+}
+
+.frm{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(32, 129, 226);
+}
+.hdin{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(4, 17, 29);
+}
+
+.detail_line:hover{
+    transition: all 0.2s ease 0s !important;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px !important;
+    background-color: rgb(251, 253, 255) !important;
+}
+
+@media only screen and (max-width:600px) { 
+    .iim {
+        width: 100%;
+        border-radius: 8px;
+    }
+}

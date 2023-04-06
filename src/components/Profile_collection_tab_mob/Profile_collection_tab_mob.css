@@ -1,0 +1,41 @@
+/* .profile_mob {
+    height: 48px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 232, 235);
+    border-radius: 12px;
+    width: 165px;
+}
+
+@media screen and (max-width:320px) {
+    .profile_mob{
+    width: 130px;
+    }
+} */
+
+/* .eroww{
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+.kame {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 11px 67px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 232, 235);
+    color: rgb(32, 129, 226);
+}
+
+@media (min-width:1001px) and (max-width:9000px) {
+    .tab_mob{
+        display: none !important;
+    }
+}

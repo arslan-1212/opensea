@@ -1,0 +1,58 @@
+.mail_box{
+    width: 60%;
+}
+.maill-boox{
+width: 60% !important ;
+border-radius: 12px !important;
+}
+.maill-boox-btn{
+    border-radius: 12px !important;
+    background-color: rgb(32, 129, 226)  !important;
+    color: white !important;
+    padding: 8px 19px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+
+
+.bg-dark-icon{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.main_footer_bg{
+    background-color: #1868b7 !important;
+}
+.maill-boox-btn:hover{
+    background-color: #238eff !important;
+    box-shadow: 0 4px 8px 0 rgba(84, 84, 84, 0.2), 0 6px 20px 0 rgba(81, 81, 81, 0.19);
+}
+.bg-dark-icon{
+    border-radius: 12px !important;
+    background-color: rgb(32, 129, 226)  !important;
+    cursor: pointer;
+}
+.bg-dark-icon:hover{
+    background-color: #238eff !important;
+    box-shadow: 0 4px 8px 0 rgba(84, 84, 84, 0.2), 0 6px 20px 0 rgba(81, 81, 81, 0.19);
+}
+.icon-primary {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+@media only screen and (max-width: 600px) {
+    .icon-primary {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    } 
+}
+.link_of_nft{
+    font-size: 15px !important;
+    list-style: none !important;
+    padding-bottom: 12px !important;
+    font-weight: 500 !important;
+}
+.link_of_nft:hover{
+    
+    font-weight: 700 !important;
+}

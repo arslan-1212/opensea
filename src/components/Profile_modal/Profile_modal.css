@@ -1,0 +1,182 @@
+.proflie_model_heading{
+    color: rgb(4, 17, 29);
+    font-weight: 650 !important;
+    text-align: center !important;
+}
+
+.proflie_modal_sub_heading{
+    color: grey ;
+    font-size: 18px;
+    text-align: center !important;
+}
+
+.profile_modal_body_heading{
+    font-size: 16px !important;
+color: black;
+font-weight: 700 !important;
+margin-left: 15px !important ;  
+}
+
+
+.popular{
+    color: grey !important;
+    font-size: 16px !important;
+}
+
+.sola_img{
+    width: 24px  !important ;
+    height: 24px !important;
+}
+
+.profile_modal_footer{
+    color:#04111d;
+    font-size: 18px !important;
+    text-align: center !important;
+}
+.profile_name{
+    padding-left: 0px !important;
+}
+
+.proflie_fotter_heading{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+
+
+/* cart offcanvass css is here  */
+.offcanvas_header_btn{
+    background-color: transparent !important;
+    outline: none !important;
+    border: none !important;
+
+}
+
+.offcanvas_header_btn:hover{
+    outline: none !important;
+    border: none !important; 
+}
+
+.offcanvas_header_btn:focus{
+    outline: none !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+
+.tooltiple_cart{
+    width: 20% !important;
+    background-color: black !important;
+}
+.toool_tipp{
+   
+}
+.css-8je8zh-MuiTouchRipple-root{
+    /* background-color: red !important;  */
+}
+
+.Tooltip{
+    background-color: red !important;
+}
+
+.cart_body_content{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 30px 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.cart_content_button{
+    margin-top: 10% !important;
+    width: 100% !important;
+}
+
+.main_cart_ooff.show{
+    height: 300px !important;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    border-radius: 20px !important;
+}
+
+.wallet_nav_clr{
+    /* color: grey !important; */
+    font-weight: 550;
+    margin-left: 15px !important;
+
+
+}
+
+.wallet_nav_content_heading{
+    color: #707a83 !important;
+    font-weight: 600;
+
+}
+
+.wallet_special{
+    color: #2081e2 !important;
+}
+
+.wallet_convas_nav{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(229, 232, 235) !important;
+    border-radius: 10px !important;
+    margin: 0px !important;
+    /* padding: 20px 0px !important; */
+}
+
+.bb_wallet{
+    border-bottom: 1px solid rgb(229, 232, 235) !important;
+padding-bottom: 10px !important;
+padding-top: 10px;
+}
+
+
+.bb_wallet:hover{
+    transition: all 0.2s ease 0s !important;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px !important;
+    background-color: rgb(251, 253, 255) !important;
+}
+
+.popular_wallet{
+    color: white !important;
+    font-size: 16px !important;
+    background-color:#2081e2;
+    padding:10px  !important;
+    border-radius: 10px !important;
+}
+
+.popular_wallet_solana{
+    background-color: #E5e8eb !important;
+    color: #707a83 !important;
+    padding:10px  !important;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+}
+
+.wallet_show_more{
+
+    color: #353840 !important;
+    font-size: 16px !important;
+}
+
+@media only screen and (max-width:600px){
+    .main_cart_ooff.show{
+        position: absolute !important;
+        top: 0px !important;
+        right: 0px !important;
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+
+    .resp_shoping_chart{
+        font-size: 30px !important;
+        margin-top: -10px !important;
+        position: relative !important ;
+    }
+}

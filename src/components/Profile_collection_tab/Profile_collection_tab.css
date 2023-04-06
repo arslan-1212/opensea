@@ -1,0 +1,22 @@
+.sale_main_2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.spc_btm{
+    /* padding-bottom: 2rem; */
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .accor_main{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .graeed{
+        display: none;
+    }
+}

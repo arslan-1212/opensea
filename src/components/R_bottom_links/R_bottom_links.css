@@ -1,0 +1,40 @@
+.bottom_links_upper_main{
+    
+   
+    /* background-color: #fbfdff; */
+    /* background-color: red !important; */
+
+}
+
+
+.main_top_bottom_links{
+    padding-top: 6.25em;
+    padding-bottom: 6.25em;
+    border-top: 1px solid #e5e8eb;
+}
+.img_border{
+    border-radius:4px  ;
+}
+
+.r_links_heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #04111d;
+    font-size: 1.25em;
+    line-height: 1.4;
+    font-weight: 700 !important;
+}
+
+.r_links_subtitle{
+    font-size: 12px;
+    color: #333333;
+}
+
+
+.links_border_top{
+    /* border-top: 1px solid #333333; */
+    border-top: 1px solid #e5e8eb !important;
+    padding: 16px 0px  !important; 
+}
+
+

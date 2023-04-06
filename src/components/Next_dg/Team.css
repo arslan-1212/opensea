@@ -1,0 +1,38 @@
+
+.balu_pic_radi{
+    width: 90%;
+    border-radius: 72px !important;
+    margin-top: 3rem;
+}
+
+.only_col{
+    width: 5%;
+}
+
+.piee{
+    border-radius: 15px;
+    width: 48% !important;
+}
+
+.mox{
+    gap: 25px;
+}
+
+@media screen and (max-width:600px) {
+    .piee{
+        border-radius: 15px;
+        width: 100% !important;
+    }
+    .balu_pic_radi{
+     width: 60%;
+    border-radius: 100px !important;
+    margin-top: 0rem;
+    }
+    .irn{
+        margin-top: 1rem;
+    }
+    .pieeon{
+        border-radius: 15px;
+ 
+    }
+}

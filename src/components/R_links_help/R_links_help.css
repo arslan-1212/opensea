@@ -1,0 +1,102 @@
+.links_help_header{
+    box-shadow: rgb(14 14 14 / 25%) 0px 0px 8px 0px;
+    margin: 0 auto;
+    padding: 10px 5%;
+    /* position: relative; */
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    /* z-index: 30; */
+    background-color: #ffffff;
+}
+
+
+.hh_header_button{
+    font-size: 14px ;
+    background-color: #2081e2 !important;
+    padding: 10px 20px ;
+    outline: none ;
+    border: none ;
+    border-radius: 10px;
+    color: white !important;
+    font-weight: 700;
+}
+
+.hh_header_button:hover{
+    background-color: #1868B7 !important;
+    text-decoration: none !important;
+}
+
+
+.hh_home_bg{
+    background-image: url(../Assets/hh_main_bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;    
+}
+
+.hh_input_home{
+    
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #353840;
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 20px;
+    /* -webkit-appearance: none; */
+    width: 100%;
+    border: 1px solid #E5E8EB;
+    font-size: 18px;
+    /* position: relative !important ; */
+
+}
+
+.hh_input_home:focus{
+    color: #555;
+    outline: none;
+    box-shadow: rgb(14 14 14 / 25%) 0px 0px 8px 0px;
+    transition: all 0.1s ease 0s;
+}
+
+.hh_icons{
+    position: relative !important;
+}
+
+.search_hh_home{
+    position: relative !important;
+    top: 100px !important;
+}
+
+
+
+.hjh_input_icon{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    color: #777;
+}
+
+.responive_logo_hh_width{
+    width: 50% !important;
+}
+
+
+@media only screen and (max-width:600px){
+    .logo_hh_reponsive{
+        width: 129px !important;
+    }
+
+    .responive_logo_hh_width{
+        width: 85% !important;
+    }
+}

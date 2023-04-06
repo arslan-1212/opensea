@@ -1,0 +1,7 @@
+.hover-1{
+background-color: white;
+font-weight: 700 !important;
+}
+.hover-1:hover{
+    background-color: rgb(154, 154, 154);
+    }

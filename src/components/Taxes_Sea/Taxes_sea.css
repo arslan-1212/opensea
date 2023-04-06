@@ -1,0 +1,48 @@
+@media only screen and (max-width:600px){
+    .parner_img{
+        width: 300px !important;
+    }
+}
+.coor{
+    background-color: #FBFDFF;
+}
+.none{
+    text-decoration: none;
+}
+.call{
+    background: #F3FBFE;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.space{
+    display: flex;
+    justify-content: center !important;
+}
+.bb{
+    border-radius: 50px;
+    background: #2E8EEE;
+}
+
+.piko{
+    /* background-image: url('../../components/Accets/'); */
+    background: url(../Assets/fullback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px !important;
+}
+.both{
+width: 25% !important;
+}
+
+@media only screen and (max-width:600px) {
+    .both{
+        width: 60%;
+    }
+    
+}

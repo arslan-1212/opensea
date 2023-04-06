@@ -1,0 +1,32 @@
+
+
+.img-respos img{
+    width: 90% !important;
+    /* margin-top: 7px !important; */
+    border: #c1c1c1 solid 1px;
+    border-radius: 7px;
+}
+.mager-text{
+    font-size: 13px !important;
+}
+.icons-res{
+    fill: rgb(32, 129, 226);
+    margin: 4px;
+    
+}
+.floor-res{
+    font-size: 12px !important;
+    color: #757575 !important;
+    font-weight: 600 !important;
+}
+.text180{
+    font-size: 13px !important;
+}
+/* .res-postions{
+    position: relative;
+    left: 12px !important;
+} */
+.tet-res{
+    color: #757575 !important;
+    font-size: 17px !important;
+}

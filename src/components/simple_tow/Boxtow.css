@@ -1,0 +1,92 @@
+
+.art{
+    display: inline-block;
+    width: 100%;
+}
+
+.in_art{
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 8px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    color: rgb(32, 129, 226);
+    text-decoration: none;
+}
+
+.art_pic{
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+    border-bottom: 1px solid rgb(229, 232, 235);
+    background-color: rgb(229, 232, 235);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arts_an{
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    color: rgb(32, 129, 226);
+}
+
+.artimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    color: rgb(32, 129, 226);
+}
+
+.art_head{
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+}
+
+.art_outr{
+    display: flex;
+    height: 40px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.art_head_spa{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(4, 17, 29);
+    box-sizing: border-box;
+}

@@ -1,0 +1,219 @@
+.main_setting_heading{
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    color: rgb(4, 17, 29) !important;
+
+}
+
+.setting_side_heading{
+    font-weight: 700;
+    font-size: 18px;
+    color: black !important;
+    margin-left: 10px !important;
+
+}
+
+
+.setting_side_heading1{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(80, 78, 78) !important;
+    margin-left: 10px !important;
+}
+
+
+.setting_side_heading1:hover{
+    color: black !important;
+}
+
+.side_setting_icons{
+    color: rgb(80, 78, 78) !important;
+    font-size: 20px !important;
+
+}
+
+.iconsss:hover {
+    color: black !important;
+}
+
+.side_setting_icons:hover{
+    color: black !important;
+}
+
+.bord_rght{
+    /* border-right: 2px solid grey !important; */
+    border-right: 1px solid rgb(229, 232, 235) !important;
+    width: 100%;
+    height: 150vh !important;
+}
+
+
+.setting_pro_del{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29) !important;
+}
+
+.preview_setting{
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 12px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 17px 24px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 232, 235);
+    color: rgb(4, 17, 29);
+}
+
+.setting_hvr:hover{
+    transition: all 0.2s ease 0s !important;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px !important;
+}
+
+.seeting_right_input{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid rgb(229, 232, 235);
+    color: rgb(4, 17, 29);
+    width: 100%;
+    padding: 12px;
+    height: 48px;
+    font-size: 16px;
+    cursor: text;
+}
+
+
+.setting_rght_txta{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    resize: vertical;
+    border: 2px solid rgb(229, 232, 235);
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.ss_sub{
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: rgb(112, 122, 131) !important;
+}
+
+.twittwer_connect{
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 12px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 11px 24px;
+    background-color: rgb(32, 129, 226);
+    border: 2px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.worrrld{
+    position: relative;
+}
+
+.circle_setting{
+    height: 150px;
+    margin-top: 10px !important;
+    width: 150px;
+    border-radius: 50%;
+    background-color:rgb(32, 129, 226) !important ;
+}
+
+.world_icon1{
+    position: absolute;
+    right: 10px !important;
+    top: 50px !important;
+    font-size: 22px !important;
+}
+
+
+.world_icon{
+    position: absolute !important;
+    font-size: 22px !important;
+    top: 50px;
+    left: 5px ;
+}
+
+
+
+.wpl{
+    padding-left: 30px !important;
+}
+
+.label_setting{
+    color: rgb(53, 56, 64);
+    font-weight: 700;
+    margin-bottom: 10px !important;
+    font-size: 16px;
+}
+
+
+
+
+.reactangle_here{
+    height: 150px ;
+    width: 150px !important;
+    border-radius: 10px !important;
+    background-color: rgb(241, 233, 233);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition:all 0.2s ;
+}
+
+.reactangle_here:hover{
+    background-color: rgb(146, 143, 143);
+
+}
+
+
+.pencil_icon{
+    font-size: 24px !important;
+    display: none !important;
+}
+
+.reactangle_here:hover .pencil_icon{
+    display: block !important;
+}
+
+
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+    display: none !important;
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    .bord_rght{
+        border-right: none !important;
+        height: auto !important;
+    }
+}

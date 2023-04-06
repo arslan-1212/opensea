@@ -1,0 +1,20 @@
+.grid-pic-art{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+}
+@media only screen and  ( max-width:600px){
+    .grid-pic-art{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+}
+@media only screen and (min-width:600px) and  ( max-width:900px){
+    .grid-pic-art{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+.upp{
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,77 @@
+.acordian_dawer{
+    margin-top: 25% !important;
+}
+@media only screen and (max-width:600px){
+    .acordian_dawer{
+        margin-top: 2% !important;
+    }
+}
+.new_main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.selecter_border
+{
+    border-radius: 13px !important;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    width: 112px;
+    height: 48px;
+    margin-right: 8px;
+    padding-left: 12px;
+color: black !important;
+}
+.MuiSelect-outlined .selecter_border
+{
+  outline: none !important;
+  border: none !important;
+}
+.menutext{
+    color: rgb(4, 17, 29) !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.mt_opesin{
+    margin-top: 42px !important;
+}
+.radius_boreder_text .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 13px !important;
+   
+}
+.hello_height .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    height: 16px !important;
+}
+.classs_apply{
+    border-radius: 12px !important;
+}
+.acci{
+    border-radius: 6px !important;
+}
+.icon_back{
+    border-radius: 50% !important;
+    font-size: 20px !important;
+    width: 17px !important;
+}
+.hover_row:hover{
+background-color: aliceblue !important;
+cursor: pointer!important;
+}
+.input_border{
+    border-radius: 10px;
+    border: 2px solid #c9c9c9 !important;
+}
+
+.input_icon{
+    position: absolute !important;
+    margin: 10px 0px 5px 13px;
+   color: #9c9c9c !important;
+}
+.input_border{
+    width: 100%;
+
+}
+.hidden_over{
+
+}

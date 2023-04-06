@@ -1,0 +1,36 @@
+.hh_card_help{
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background: #F3FBFD;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    border: 1px solid #E5E8EB;
+    border-radius: 5px !important;
+    height: 200px !important;
+}
+
+
+
+.hh_card_help:hover{
+    box-shadow: rgb(14 14 14 / 25%) 0px 0px 8px 0px;
+    transition: all 0.1s ease 0s;
+    color: #04111D;
+}
+
+.hh_card_pic{
+    width: 100% !important;
+    max-width: 120px !important;
+    margin: 0 auto 10px !important;
+}
+
+.hh_card_heading{
+    margin-bottom: 0;
+    font-size: 20px; 
+    text-align: center;
+    font-weight: 650;
+    color: #04111D;
+    letter-spacing: .25px;
+}

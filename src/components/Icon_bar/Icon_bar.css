@@ -1,0 +1,18 @@
+
+.css-1x4vipr-MuiButtonBase-root-MuiToggleButton-root.Mui-selected.hello {
+    color: #e8e8e8;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.css-1x4vipr-MuiButtonBase-root-MuiToggleButton-root.Mui-selected.hello:hover {
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.css-1x4vipr-MuiButtonBase-root-MuiToggleButton-root.chalo{
+background-color: rgb(255, 255, 255) !important;
+}
+.css-1x4vipr-MuiButtonBase-root-MuiToggleButton-root.chalo:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .heelo{
+        width: max-content !important;
+    }

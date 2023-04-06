@@ -1,0 +1,17 @@
+.artical_main_heading{
+    margin-bottom: 0.125em;
+    color: #04111d;
+    font-size: 2.25em;
+    line-height: 1.2em;
+}
+
+.artical_description{
+    font-size: 1em;
+    line-height: 150%;
+}
+
+
+
+.r_sources_video{
+    border-radius:12px !important ;
+}

@@ -1,0 +1,102 @@
+.card_width{
+    width: 30%;
+    border: 2px solid black; 
+}
+
+.upr_box_pic{
+    -webkit-text-size-adjust: 100%;
+    --main-dark: #1967b6;
+    --main-light: white;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+    color: #333;
+    font-size: 1vw;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    padding-top: 56.25%;
+}
+
+.blog_img{
+    border-radius: 20px 20px 1px 1px;
+    -webkit-text-size-adjust: 100%;
+    --main-dark: #1967b6;
+    --main-light: white;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+    color: #333;
+    font-size: 1vw;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border: 1px none #000;
+    object-fit: cover;
+}
+
+.bottom_rads{
+    border-radius: 0px 0px 20px 20px;
+}
+
+.nxt_bt{
+    width: 12% !important;
+    height: 45px;
+    border-radius: 12px !important;
+}
+
+.bg_col{
+    background-color: rgb(255, 251, 251);
+}
+
+.datt_ed{
+    font-size: small;
+    font-weight: 600;
+}
+
+
+.blog_card_bg_here
+{
+    /* background-color: red !important; */
+    
+    align-items: flex-start;
+    /* border-radius: 18px !important; */
+    background-color: #fff !important;
+    box-shadow: 1px 1px 16px 0 rgb(0 0 0 / 10%) !important;
+    text-decoration: none !important;
+
+}
+
+.pro_botn{
+    padding: 1.125em 2.25em;
+    border-radius: 12px;
+    box-shadow: 1px 1px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.for_siz_edt{
+    font-size: 18px;
+}
+
+.aSwe_fnt{
+    font-size: 14px;
+}
+
+@media only screen and (max-width:600px) {
+    .nxt_bt{
+        width: 37% !important;
+    }
+}

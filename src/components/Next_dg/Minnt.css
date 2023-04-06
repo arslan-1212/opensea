@@ -1,0 +1,82 @@
+
+.slmo_img{
+    width: 6%;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+.veri{
+    color: rgb(17, 136, 234);
+}
+
+.progresh {
+    display: flex;
+    height: 4px !important;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.view_c_box{
+    margin-bottom: 2rem;
+    border-radius: 12px;
+}
+
+.view_c_butn{
+    width: 100%;
+    border-radius: 14px !important;
+    height: 55px;
+}
+
+.truww{
+    display: flex;
+    flex-direction: column;
+}
+
+.for_nobrd{
+    border: none !important;
+}
+
+.bldu_pic{
+    width: 100%;
+    height: 30rem !important;
+}
+
+.arre_nawaz{
+    margin-left: 3rem !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: red !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width:600px) {
+    .arre_nawaz{
+        margin-left: 1rem !important;
+    }
+    .bldu_pic{
+        width: 100%;
+        height: 10rem !important;
+    }
+    .hdrt{
+        font-size: 15px !important;
+    }
+    .slmo_img{
+        width: 14%;
+        height: 40px;
+        border-radius: 6px;
+        margin-right: 0rem;
+    }
+    .ixd{
+        font-size: 14px;
+    }
+}

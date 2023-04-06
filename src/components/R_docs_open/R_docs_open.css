@@ -1,0 +1,57 @@
+@media only screen and (max-width:600px){
+    .parner_img{
+        width: 300px !important;
+    }
+}
+.coor{
+    background-color: #FBFDFF !important;
+}
+.none{
+    text-decoration: none !important;
+}
+
+/* 30 /12 /2022  */
+ .btn_run{
+    font-size: 10px !important;
+    
+ }
+ .hr_line{
+    width: 70% !important;
+display: block !important;
+margin: auto !important;
+   
+ }
+ .btn_ru:hover{
+    background:#005FB8 !important;
+ }
+ .col_img{
+    background: #F8F9FB !important;
+ }
+ /* 02-01-23     */
+ .prha{
+    font-size: 14px !important;
+ }
+ .btn_txt{
+    font-size: 12px !important;
+ }
+ .Heading_color_all{
+    color: #4C555A !important;
+ }
+ .grey_color {
+    color: #ccc !important;
+    font-size: 14px !important;
+  }
+  .footer_hr{
+    width: 75% !important;
+    margin: 0px 1px 12px 1px !important;
+  }
+  .text_footer{
+    color: #61B7F2 !important;
+  }
+  .get{
+   color: white !important;
+   font-size: 10px !important;
+   background: #0E9B71 !important;
+   padding: 2px 7px 2px 7px !important;
+   border-radius: 10px !important;
+  }

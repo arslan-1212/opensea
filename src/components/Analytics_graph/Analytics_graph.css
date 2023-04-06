@@ -1,0 +1,119 @@
+.rrow_upward_Volume{
+    border: 2px solid #dbdbdb !important;
+    border-radius: 15px !important;
+}
+
+.listing_head{
+    color: #04111d;
+    font-weight: 700;
+    font-size: 20px !important;
+}
+.selct_price{
+    width: 150px !important;
+    border: 2px solid #dbdbdb !important;
+    border-radius: 15px !important;
+    padding: 10px 20px;
+
+
+}
+.selct_price:hover{
+    background-color: none !important;
+}
+
+.selct_price:focus{
+    box-shadow: none !important;
+}
+
+
+.optios_select{
+    font-size: 18px !important;
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.span_text_pfa{
+    color: rgb(112, 122, 131) !important;
+}
+
+.pfa_tex p {
+    color: black;
+    font-size: 16px ;
+    font-weight: 600 !important;
+    margin-bottom: 0px !important;
+   
+    
+
+}
+.gfggf{
+    text-overflow: ellipsis !important;
+}
+
+
+.acutal_progress_bar{
+    overflow: hidden;
+    position: relative;
+    background: rgb(242, 244, 245);
+    margin-top: 12px;
+    height: 24px;
+    border-radius: 8px;
+}
+
+
+.acutal_progress_bar::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 77.4194%;
+    transition: width 0.5s ease-in-out 0s;
+    background: rgb(32, 129, 226);
+}
+
+.owner_img{
+    width: 40px ;
+    height: 40px ;
+    border-radius: 50%;
+}
+
+.sec::after{
+    width: 13% !important;
+}
+.secc::after{
+    width: 5% !important;
+}
+
+.optios_select:hover{
+    background-color: none !important;
+}
+
+.owner_dis{
+    margin-top: 10% !important;
+    border-top: 1px solid grey;
+}
+
+.border_rounder{
+    border: 2px solid #dbdbdb !important;
+    padding-bottom: 20px !important;
+    border-radius: 15px !important;
+}
+
+.hvr_efft:hover{
+    background-color: rgb(242, 244, 245);
+    padding: 10px 5px;
+
+}
+
+
+.hr_efft:hover{
+    background-color: rgb(242, 244, 245);
+    padding-top: 10px;
+
+
+}
+
+.bbbooxxxx:hover{
+    transition: all 0.2s ease 0s !important;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px !important;
+    background-color: rgb(251, 253, 255) !important;
+}

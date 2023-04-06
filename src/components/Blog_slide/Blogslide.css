@@ -1,0 +1,17 @@
+
+.sld_remk{
+    padding: 15px 50px !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width:600px) {
+    .sld_remk{
+        padding: 15px 0px !important;
+    } 
+}

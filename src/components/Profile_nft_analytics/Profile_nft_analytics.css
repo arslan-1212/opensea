@@ -1,0 +1,12 @@
+.appbar_line_analytics{
+   
+    z-index: 600 !important; 
+    background-color: white !important;
+    color: black !important;
+    position:relative !important;
+    box-shadow: none !important;
+}
+.drawer_appbar_z_analytics .css-1l8j5k8  {
+    position: relative !important;
+    z-index: 1 !important;
+}

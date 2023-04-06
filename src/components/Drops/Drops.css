@@ -1,0 +1,273 @@
+.main_heading{
+    font-weight: 700;
+    color: rgb(4, 17, 29);
+    font-size: xxx-large;
+}
+
+.main_tab{
+    margin-top: 4rem;
+}
+
+/* tab css */
+
+
+
+.opp{
+    font-size: large !important;
+    color: black !important;
+}
+
+.dec{
+    font-size: xx-large;
+    font-weight: 700;
+}   
+
+
+.cool_img{
+    width: 6%;
+    border-radius: 12px;
+    border: 2px solid white
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(20px);
+    padding: 6px 13px;
+}
+
+.b_fon{
+    font-size: 14px;
+    font-weight: 600;
+}
+.w_fon{
+    font-weight: 600;
+}
+
+.bell{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(20px);
+}
+
+.bell_1{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(20px);
+    padding: 16px 18px;
+}
+
+.for_position{
+    position: relative;
+    bottom: 290px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.band{
+    margin-top: 2rem;
+}
+
+.uper{
+    margin-top: 2rem;
+    height: 500px;
+    width:100%;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 20px;
+}
+
+
+
+.bike_movi{
+  object-fit: cover; 
+  height: 450px;
+  width: 100%;
+}
+.aga_in{
+    border-radius: 20px !important;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.view{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.dr_main{
+    margin-top: 4rem;
+}
+
+.main_time_box{
+    margin-top: 26px !important;
+}
+
+@media screen and (max-width:600px) {
+
+    .main_time_box{
+        margin-top: 15px !important;
+    }
+
+    .dec{
+        font-size: xx-large;
+        font-weight: 700;
+        margin-left: 1rem;
+    } 
+
+    .bike_movi{
+        object-fit: cover; 
+        height: 450px;
+        width: 97%;
+      }
+
+    .main_tab{
+        margin-top: 2rem;
+    }
+    .main_heading{
+        font-weight: 700;
+        color: rgb(4, 17, 29);
+        font-size:xx-large;
+        margin-left: 1rem;
+    }
+    .css-19kzrtu {
+        padding: 13px !important;
+    }
+
+    .for_position{
+        position: relative;
+        bottom: 300px;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+    }
+    .gYb{
+        display: none !important;
+    }
+    .cool_img{
+        width: 20%;
+        border-radius: 12px; 
+        border: 2px solid white;
+        margin-left: 7px;
+    }
+    .fr_res{
+        padding: 0px !important;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(20px);
+        padding: 6px 9px;
+    }
+    .time{
+        display: flex;
+        justify-content:space-around;
+    }
+    
+    .view{
+        align-items: center;
+    }
+    .b_fon{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .w_fon{
+        font-weight: 100 !important;
+    }
+    .in_between{
+        margin-left: 7px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+    .bell_1{
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(20px);
+        padding: 27px 25px;
+    }
+    .main_time_box{
+        /* margin-top: 15px !important; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dec{
+        font-size: xx-large;
+        font-weight: 700;
+        margin-left: 1rem;
+    } 
+
+    .bike_movi{
+        object-fit: cover; 
+        height: 450px;
+        width: 97%;
+        /* border-radius: 20px !important; */
+      }
+
+    .main_tab{
+        margin-top: 2rem;
+    }
+    .main_heading{
+        font-weight: 700;
+        color: rgb(4, 17, 29);
+        font-size:xx-large;
+        margin-left: 1rem;
+    }
+    .css-19kzrtu {
+        padding: 13px !important;
+    }
+
+    .for_position{
+        position: relative;
+        bottom: 338px;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cool_img{
+        width: 20%;
+        border-radius: 12px; 
+        border: 2px solid white;
+        margin-left: 7px;
+    }
+    .fr_res{
+        padding: 0px !important;
+    }
+    .day{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.24);
+        backdrop-filter: blur(20px);
+        padding: 14px 13px;
+    }
+    .time{
+        gap: 12px;
+    }
+    
+    .view{
+        align-items: center;
+    }
+    .b_fon{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .w_fon{
+        font-weight: 100 !important;
+    }
+    .in_between{
+        margin-left: 7px;
+    }
+}

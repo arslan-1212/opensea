@@ -1,0 +1,31 @@
+.help_permote_main{
+    background: #F3FBFD;
+    padding: 40px;
+    margin: 30px 0 0;
+}
+
+
+.promote_mainn_heading{
+    font-size: 22px;
+    font-weight: 600 !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: rgba(0,0,0,.87) !important;
+}
+
+.promoote{
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    min-height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.prommote_headig{
+    display: block;
+    padding: 15px;
+    color: rgba(53, 56, 64, 1);
+}

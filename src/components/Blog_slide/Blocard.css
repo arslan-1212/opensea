@@ -1,0 +1,54 @@
+
+.typo{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.typo_tow{
+    font-size: small;
+}
+
+.rad{
+ padding: 20px 20px;
+ border-radius: 12px !important;
+}
+
+.blog_sldr_frimg{
+    width: 80% !important;
+    border-radius: 0px !important;
+}
+
+.pro_bt_updo{
+    height: 23px !important;
+}
+.fnt_sz{
+    font-size: 11px;
+}
+.buton_cover{
+    display: flex;
+}
+.card_title_nw{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pht_solo{
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width:600px) {
+    .pht_solo{
+        display: flex;
+        justify-content: center;
+        padding-right: 0px !important;
+    }
+    
+    .box_two_wr{
+        padding-top: 15px;
+    }
+    .blog_sldr_frimg{
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+}

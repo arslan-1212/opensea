@@ -1,0 +1,221 @@
+
+.main_box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 8px;
+    transition: box-shadow 0.25s ease-in-out 0s;
+    width: 100% !important;
+}
+
+.fst_pic_uper{
+    padding-bottom: 56.25%;
+    height: 0px;
+    position: relative;
+}
+
+.frsts_pan{
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    inset: 0px;
+}
+
+.frst_pic{
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.lower{
+    padding: 16px;
+    border-radius: 12px;
+    z-index: 99;
+    margin-top: -26px;
+}
+
+.lower_pic_uper{
+    width: 78px;
+    height: 78px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 5px 10px;
+    /* ound-color: rgb(255, 255, 255); */
+    position: relative;
+}
+
+.scnds_spn{
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.second_pic{
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+
+.heading_uper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.undr_heading{
+    margin-top: 38px;
+    overflow: hidden;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: left;
+}
+
+.heading{
+    display: block;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding-left: 16px;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(4, 17, 29);
+}
+.btn-learn{
+    width: max-content !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    border: #e7e7e7 solid !important;
+    border-radius: 12px !important;
+}
+.btn-learn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(154, 154, 154, 0.10);
+}
+.befr{
+        margin-bottom: 1rem;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 10px !important;
+    right: auto !important;
+    width: 46px !important;
+    border-radius: 50% !important;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+    width: 46px !important;
+    border-radius: 50% !important;
+}
+.swiper-button-prev:hover, .swiper-rtl .swiper-button-next:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  
+ 
+}
+.swiper-button-next:hover, .swiper-rtl .swiper-button-prev:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next{
+color: rgb(0, 0, 0) !important;
+width: 98% !important;
+height: 100% !important;
+background-color: white;
+border-radius: 50% !important;
+font-size: 16px !important;
+font-weight: 900;
+padding: 13px !important;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+ color: rgb(0, 0, 0) !important;
+width: 98% !important;
+height: 100% !important;
+background-color: white;
+border-radius: 50% !important;
+font-size: 16px !important;
+font-weight: 900;
+padding: 13px !important;
+}
+
+
+@media only screen and (max-width:600px) {
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next{
+        background-color: #52525257 !important;
+        color: rgb(255, 255, 255) !important;
+        
+        }
+        
+        .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+            background-color: #52525257 !important;
+            color: rgb(255, 255, 255) !important;
+            
+        }
+       
+        
+        .btn-learn{
+            width: 
+        50% !important;
+        padding: 3% !important;
+        height: fit-content;
+        }
+}
+.backgrid{
+
+background-image: url(../Assets/home-gradient-light-sm.png);
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+position: relative !important;
+
+}
+
+
+
+

@@ -1,0 +1,127 @@
+
+.nft_display_styl{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+.right_sid_icon{
+    gap: 10px !important;
+}
+
+.favort{
+    font-size: 20px;
+    cursor: pointer !important;
+    font-weight: 700;
+
+}
+
+.azu_1st{
+    font-size: 16px;
+    color: rgb(32, 129, 226);
+}
+
+.fst_bbtn{
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.main_titl{
+    font-size: 30px;
+    font-weight: 600px;
+    word-break: break-word;
+}
+.view_heart_ppt{
+    font-size: 14px !important;
+    padding-top: 2px !important;
+    padding-left: 3px !important;
+}
+.group_list_m_some{
+    color: rgb(69, 70, 74) !important;
+   font-weight: 500 !important;
+}
+.Current_price{
+    color: rgb(69, 70, 74) !important;
+    font-weight: 500 !important;
+}
+.Add_to:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(129, 129, 129, 0.19) !important;
+}
+
+.listing_sty{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tag_ico{
+    font-size: 25px;
+}
+
+.tabl_buy_bttnn{
+    border-radius: 12px !important;
+    background-color: rgb(32, 129, 226) !important;
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.tbl_ro_st{
+    background-color: rgb(221, 237, 248) !important;
+    overflow: scroll;
+}
+
+.tbl_ddta{
+    border: none;
+}
+.tbl_rrw{
+    display: flex;
+    justify-content: space-between;
+}
+.billi_mmgg{
+    width: 40%;
+    border-radius: 12px;
+}
+
+.detail_bbx{
+    text-align: justify;
+}
+
+.card_layr{
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+}
+
+.main_bttn_ad{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.cor_bt{
+    border-radius: 12px !important;
+}
+
+
+@media only screen and (max-width:600px) {
+    .tbl_ro_stt{
+        overflow-x: scroll !important;
+    
+     }
+
+   
+    
+    .main_bttn_ad{
+        display: flex;
+        flex-direction: column;
+    }
+    .billi_mmgg{
+        width: 20%;
+        border-radius: 12px;
+    }
+    .nft_display_styl{
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .pad_edn{
+        /* padding: 0px 0px !important; */
+    }
+}

@@ -1,0 +1,108 @@
+.logo_name_responsive{
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 10px !important;
+}
+
+.nawa{
+    display: contents;
+}
+
+.responsive_logo{
+    width:25% !important;
+}
+
+
+.res_pos_icons{
+    font-size: 28px;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.responsive_navbar_offcanvas_postiontion{
+    /* position:absolute !important; */
+    top: 55px !important;
+    background: rgb(251, 253, 255) !important;
+}
+
+
+.responsive_acc{
+    background-color: transparent !important;
+}
+
+.responsive_acc .accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+.responsive_acc .accordion-item{
+    background-color: transparent !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.responsive_acc .accordion-button{
+    background-color: transparent !important;
+}
+
+.moblie_menu_heading{
+
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: black;
+    margin-left: 5px !important;
+}
+
+
+.moblie_view_icons{
+    font-size: 28px !important;
+    font-weight: bold !important;
+}
+
+.responsive_acc .accordion-item{
+    border: none !important;
+}
+
+
+.moblie_footer_icons{
+    color: grey !important;
+    font-size: 22px;
+    margin-right: 25px !important;
+}
+
+
+
+.mbole_main_dev_icons{
+    margin-top: 20px !important;
+    border-top: 1px solid grey ;
+    padding: 20px 0px !important;
+}
+
+
+.mbl_buttton_res{
+    background-color: rgb(32, 129, 226);
+    border: 2px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 17px 24px;
+    border-radius: 8px !important;
+}
+
+.responsive_moblie_links{
+    color: black !important;
+    font-weight: bold !important;
+    margin-bottom: -10px !important;
+}
+
+.responsive_acc .accordion-body{
+    padding-top:10px !important ;
+    padding-bottom:10px !important ;
+}
+
+.margin_mobbb{
+    padding-top: 10px !important ;
+}
